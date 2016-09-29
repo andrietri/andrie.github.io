@@ -192,7 +192,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form action="https:////formspree.io/andrietrilaksono@mhs.uinjkt.ac.id" name="sentMessage" id="contactForm" novalidate method="POST">
+                    <form action="https://script.google.com/macros/s/AKfycbyR4sUVafHlJ0O8mCnMIUnrF1n5DVeKolEcGvk2n_uvMMvF4xhK/exec" id="contactForm" novalidate method="POST">
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Name</label>
@@ -203,7 +203,7 @@
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Email Address</label>
-                                <input name="_replyto" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <input name="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -399,16 +399,6 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
-
-    <!-- ajax -->
-    <script type="text/javascript" >
-        $.ajax({
-            url: "https://formspree.io/andrietrilaksono@mhs.uinjkt.ac.id",
-            method: "POST",
-            data: "",
-            dataType: "json"
-        });
-    </script>
 
 </body>
 
