@@ -24,6 +24,7 @@ $(function() {
                 // url: "././mail/contact_me.php",
                 url: "https://formspree.io/andrietrilaksono@mhs.uinjkt.ac.id",
                 type: "POST",
+                dataType: "json"
                 data: {
                     name: name,
                     phone: phone,
