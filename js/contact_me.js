@@ -54,7 +54,8 @@ $(function() {
                     // $('#success > .alert-danger').append('</div>');
                     // //clear all fields
                     // $('#contactForm').trigger("reset");
-                                        // Enable button & show success message
+                
+                    // Enable button & show success message
                     $("#btnSubmit").attr("disabled", false);
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
